@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script tyep="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Rock Paper Scissors</h1>
+    <section>
+        <div class="player">
+            <img id="p1" src="images\smile.jpg">
+        </div>
+        <div  class="computer">
+            <img id="cpu" src="images\smile.jpg"> 
+        </div>
+    </section>
+
+    <div class="center_button">
+        <button id="play" class="play-button" onclick='start(this)'> Play</button> 
+    </div>
+
+    <div class="centered_choices" >
+        <button id="rock_button" hidden class="choice_sizes" onclick="action(this.id)">Rock</button>
+        <button id="paper_button" hidden class="choice_sizes" onclick="action(this.id)">Paper</button>
+        <button id="scissors_button" hidden class="choice_sizes" onclick="action(this.id)">Scissors</button>
+    </div>
+    
+
+    
+        
+
+    
+</body>
+</html>
